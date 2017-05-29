@@ -53,7 +53,7 @@ if (!isset($this->subTitle)) {
                 <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                     <span class="sr-only">Toggle navigation</span>
                 </a>
-                <a href="<?php echo Url::toRoute(['/admin/logout']) ?>" class="sidebar-logout" role="button">
+                <a href="<?php echo Url::toRoute(['/admin/signout']) ?>" class="sidebar-logout" role="button">
                     <span>Signing out (<?= Yii::$app->user->identity->email ?>)</span>
                 </a>
             </nav>
